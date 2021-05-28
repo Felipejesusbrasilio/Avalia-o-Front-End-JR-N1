@@ -1,0 +1,784 @@
+*{margin: 0; padding: 0;}
+
+
+.banner-desktop
+{
+	/*border: 1px solid white;*/
+	height: 840px;
+	background-image: url(../imagem/principal_banner_desktop.jpg);
+}
+
+@media only screen and (max-width: 600px){
+	.banner-desktop
+{
+	/*border: 1px solid white;*/
+	height: 436px;
+	background-image: url(../imagem/principal_banner_mobile.jpg);
+}
+
+}
+
+.banner-desktop .barra-right
+{
+	/*border: 1px solid white;*/
+	width: 63px;
+	height: 384px;
+	position: absolute;
+	margin-left: 1840px;
+	margin-top: 212px;
+  background-color: #3EC6E0;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.banner-desktop .barra-right span
+{
+	position: absolute;
+	color: white;
+	font-family: roboto;
+	transform: rotate(90deg);
+	height: 9.98px;
+	font-size: 14px;
+	width: 114px;
+	line-height: 16px;
+	font-weight: 400;
+	margin-left: -20px;
+	margin-top: 80px;
+}
+
+.banner-desktop .barra-right .linha
+{
+	border: 1px solid white;
+	position: absolute;
+	width: 77px;
+	height: 0px;
+	margin-top: 200px;
+	transform: rotate(90deg);
+	margin-left: -5px;
+}
+
+.banner-desktop .barra-right .quadradinho
+{
+	/*border: 1px solid white;*/
+	margin-top: 300px;
+	width: 63px;
+	height: 84px;
+	border-radius: 0px 0px 0px 10px;
+	background: #084154;
+
+}
+
+.banner-desktop .barra-right .quadradinho h4
+{
+	position: absolute;
+	line-height: 16px;
+	font-size: 14px;
+	font-family: roboto;
+	color: white;
+	font-weight: 400;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+.banner-desktop .barra-right .quadradinho img
+{
+	margin-top: 45px;
+	margin-left: 13px;
+}
+
+@media only screen and (max-width: 600px){
+	.banner-desktop .barra-right{
+		margin-left: 0px;
+    width: 330px;
+    height: 52px;
+    margin-top: 400px;
+	}
+
+	.banner-desktop .barra-right span{
+		width: 114px;
+		height: 9.98px;
+		position: absolute;
+		margin-top: 20px;
+		transform: rotate(0deg);
+		margin-left: 30px;
+	}
+
+	.banner-desktop .barra-right .linha
+	{
+		display: none;
+	}
+
+	.banner-desktop .barra-right .quadradinho
+	{
+		transform: rotate(360deg);
+		margin-top: 0px;
+		width: 140px;
+		height: 52px;
+		border-radius: 0px 0px 0px 0px;
+		margin-left: 190px;
+	}
+
+	.banner-desktop .barra-right .quadradinho .img-phone-1
+	{
+
+		margin-top: 19px;
+		margin-left: 70px;
+		position: absolute;
+	}
+
+	.banner-desktop .barra-right .quadradinho .img-phone-2
+	{
+		
+		margin-top: 19px;
+		margin-left: 115px;
+	}
+}
+
+.banner-desktop .menu-desktop-beaultiful
+{
+	/*border: 1px solid white;*/
+	position: absolute;
+	z-index: 2;
+	width: 565px;
+	height: 249px;
+	margin-top: 101.48px;
+	margin-left: 344px;
+	border-radius: 5px;
+	background: #3EC6E0;
+}
+
+@media only screen and (max-width: 600px){
+	.banner-desktop .menu-desktop-beaultiful{
+		display: none;
+	}
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando
+{
+	/*border: 1px solid red;*/
+	position: absolute;
+	width: 565px;
+	height: 249px;
+	margin-left: -10px;
+	margin-top: -10px;
+	background-color: #084154;
+	box-sizing: border-box;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+
+.banner-desktop .menu-desktop-beaultiful .navegando ul
+{
+  display: flex;
+}
+
+
+.banner-desktop .menu-desktop-beaultiful .navegando li
+{
+  /*border: 1px solid red;*/
+  margin-left: 80px;
+  margin-top: 30px;
+  list-style: none;
+}
+
+
+.banner-desktop .menu-desktop-beaultiful .navegando h1
+{
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: bold;
+	font-family: roboto;
+	color: white;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-1
+{
+	/*border: 1px solid white;*/
+	height: 190px;
+	width: 105px;
+	margin-left: 80px;
+	position: absolute;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-1 a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: normal;
+	line-height: 16px;
+	color: white;
+	padding: 10px;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-1 a:hover
+{
+	background: #3EC6E0;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-2
+{
+  /*border: 1px solid red;*/
+  width: 115px;
+  height: 190px;
+  margin-left: 190px;
+  position: absolute;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-2 a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: normal;
+	line-height: 16px;
+	color: white;
+	padding: 10px;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-2 a:hover
+{
+	background: #3EC6E0;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-3
+{
+  /*border: 1px solid blue;*/
+  width: 170px;
+  height: 190px;
+  margin-left: 390px;
+  position: absolute;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-3 a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: roboto;
+	font-weight: normal;
+	line-height: 16px;
+	color: white;
+	padding: 10px;
+}
+
+.banner-desktop .menu-desktop-beaultiful .navegando .coluna-3 a:hover
+{
+	background: #3EC6E0;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+
+
+.anuncio
+{
+	/*border: 1px solid white;*/
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	margin-left: 1050px;
+	margin-top: 200px;
+	font-family: roboto;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+@media only screen and (max-width: 600px){
+	.anuncio{
+		/*border: 1px solid black;*/
+		margin-left: 0px;
+		width: 330px;
+		height: 220px;
+		background-color: rgba(0, 0, 0, 0.65);
+	}
+
+	.anuncio h1
+	{
+		font-size: 26px;
+		margin-left: 100px;
+	}
+
+	.anuncio .anuncio-2
+	{
+		/*border: 1px solid white;*/
+		width: 200px;
+		margin-left: 115px;
+	}
+   
+  .anuncio .anuncio-2 h1
+  {
+  	font-size: 48px;
+  	margin-left: 0px;
+  	position: absolute;
+  }
+
+  .anuncio .anuncio-2 h2
+  {
+  	font-size: 28px;
+  	margin-left: 168px;
+  	margin-top: 2px;
+  }
+
+}
+
+.anuncio-2
+{
+	/*border: 1px solid white;*/
+	width: 340px;
+	height: 82px;
+	margin-left: 145px;
+}
+
+.anuncio-2 h1
+{
+	font-size: 85px;
+	margin-top: -10px;
+	color: #3EC6E0;
+	font-family: roboto;
+	font-weight: 900;
+}
+
+.anuncio h2
+{
+	margin-left: 285px;
+	position: absolute;
+	font-size: 28;
+	font-family: roboto;
+	font-weight: 900;
+	margin-top: 18px;
+	color: #3EC6E0;
+
+}
+
+.anuncio .descricao
+{
+	/*border: 1px solid white;*/
+	width: 490px;
+	height: 250px;
+}
+
+.anuncio .descricao span
+{
+	font-size: 16px;
+	font-family: roboto;
+	font-weight: 400;
+}
+
+.anuncio .text-phone
+{
+	display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+	.descricao
+	{
+    display: none;
+	}
+
+	.anuncio .descricao span {
+		display: none;
+	}
+
+	.anuncio .text-phone{
+		display: block;
+		/*border: 1px solid green;*/
+		width: 317px;
+		height: 99px;
+		margin-top: -20px;
+	}
+  
+  .anuncio .text-phone span {
+		display: block;
+		font-size: 12px;
+		line-height: 18.6px;
+		margin-top: -15px;
+		position: absolute;
+		font-weight: 400;
+	}
+
+
+}
+
+header
+{
+	/*border: 1px solid black;*/
+	margin-top: 50px;
+	position: absolute;
+}
+
+@media only screen and (max-width: 600px){
+	header{
+		margin-top: 0px;
+	}
+}
+
+header ul
+{
+	/*border: 1px solid black;*/
+	list-style: none;
+	display: flex;
+}
+
+header ul li
+{
+	/*border: 1px solid black;*/
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.barras
+{
+	border: 1px solid white;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+header ul li a
+{
+	display: flex;
+	text-decoration: none;
+	margin-left: 5px;
+	margin-top: -8px;
+	color: white;
+	font-family: Roboto;
+}
+
+header ul li a:hover
+{
+	color: white;
+}
+
+.img-1
+{
+	margin-left: 20px;
+}
+
+.img-2
+{
+  margin-left: 20px;
+}
+
+.img-3
+{
+   margin-left: 20px;
+}
+
+.bolinha
+{
+	/*border: 1px solid black;*/
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	position: absolute;
+	text-align: center;
+	margin-top: 12px;
+	color: white;
+	margin-left: 360px;
+	background-color: #00BFFF;
+}
+
+.container
+{
+	/*border: 1px solid green;*/
+}
+
+.menu
+{
+	/*border: 1px solid white;*/
+	width: 150px;
+	height: 45px;
+	margin-left: 300px;
+	margin-top: 5px;
+	position: absolute;
+}
+
+.menu img
+{
+	margin-left: 90px;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    margin-left: 0px;
+    width: 50px;
+  }
+
+  .menu img
+  {
+  	 margin-left: 10px;
+  	 margin-top: 10px;
+  }
+
+}
+
+.menu img
+{
+	
+}
+
+.imagem-logo
+{
+	/*border: 1px solid white;*/
+	width: 250px;
+	margin-left: 455px;
+	height: 45px;
+	position: absolute;
+}
+
+@media only screen and (max-width: 600px){
+	.imagem-logo
+  {
+  	  margin-left: 50px;
+  	  width: 100px;
+  	  font-size: 12px;
+  	  font-family: roboto;
+  }
+
+  .imagem-logo h4
+  {
+  	margin-top: 10px;
+  }
+}
+
+.imagem-logo h4
+{
+	color: white;
+}
+
+.navegacao
+{
+	/*border: 1px solid white;*/
+	width: 500px;
+	margin-left: 980px;
+}
+
+@media only screen and (max-width: 600px){
+	.navegacao
+	{
+		margin-left: 150px;
+		width: 170px;
+	}
+
+	.navegacao a 
+	{
+		display: none;
+	}
+
+	.navegacao img
+	{
+		margin-left: 5px;
+	}
+
+	.navegacao .barras
+	{
+		margin-left: 5px;
+	}
+
+	.navegacao .bolinha
+	{
+		font-family: roboto;
+		color: white;
+		margin-left: 150px;
+	}
+
+	.navegacao img
+	{
+		margin-left: 15px;
+	}
+
+}
+
+.wallpaper-1
+{
+	/*border: 1px solid black;*/
+	width: 627px;
+	height: 368px;
+	position: absolute;
+	margin-left: 323px;
+	margin-top: -115px;
+	background-color: #084154;
+}
+
+.wallpaper-1 h1
+{
+	font-family: roboto;
+	color: white;
+	opacity: 0;
+	animation: animar 0.6s infinite;
+}
+
+
+@keyframes animar{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+.wallpaper-1 .barra-button
+{
+	/*border: 1px solid white;*/
+	width: 600px;
+	height: 61px;
+	border-radius: 5px;
+	background: #3EC6E0;
+	margin-left: 25px;
+  margin-top: 230px;
+}
+
+.wallpaper-1 .barra-button span
+{
+	position: absolute;
+	width: 299px;
+	height: 19px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 16px;
+	color: #084154;
+
+}
+
+.wallpaper-1 .barra-button .linha-wallpaper
+{
+	position: absolute;
+	margin-left: 320px;
+	width: 248px;
+	height: 0px;
+	margin-top: 30px;
+	border: 1px solid #084154;
+}
+
+.wallpaper-2
+{
+	/*border: 1px solid black;*/
+	width: 627px;
+	height: 368px;
+	position: absolute;
+	margin-left: 980px;
+	margin-top: -115px;
+	background-color: #084154;
+}
+
+.wallpaper-2 h1
+{
+	font-family: roboto;
+	color: white;
+	opacity: 0;
+	animation: animar 0.6s infinite;
+}
+
+.wallpaper-2 .barra-button
+{
+	/*border: 1px solid white;*/
+	width: 600px;
+	height: 61px;
+	border-radius: 5px;
+	background: #3EC6E0;
+	margin-left: 25px;
+  margin-top: 230px;
+}
+
+.wallpaper-2 .barra-button span
+{
+	position: absolute;
+	width: 299px;
+	height: 19px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 16px;
+	color: #084154;
+
+}
+
+.wallpaper-2 .barra-button .linha-wallpaper
+{
+	position: absolute;
+	margin-left: 320px;
+	width: 248px;
+	height: 0px;
+	margin-top: 30px;
+	border: 1px solid #084154;
+}
+
+@media only screen and (max-width: 600px){
+	.wallpaper-1{
+		width: 320px;
+		height: 190.88px;
+		margin-left: 5px;
+		margin-top: 40px;
+	}
+
+	.wallpaper-1 .barra-button
+	{
+		position: absolute;
+		width: 310px;
+    height: 31px;
+    margin-left: 10px;
+    margin-top: 45px;
+	}
+
+	.wallpaper-1 .barra-button span
+	{
+		font-size: 12px;
+		margin-top: 8px;
+	}
+
+	.wallpaper-1 .barra-button .linha-wallpaper
+	{
+		width: 71px;
+		margin-left: 234px;
+		position: absolute;
+		margin-top: 13px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.wallpaper-phone{
+    margin-left: 0px;
+    margin-top: 250px;
+    width: 320px;
+    height: 190px;
+    margin-left: 5px;
+	}
+
+	.wallpaper-phone .barra-button
+	{
+		position: absolute;
+		width: 310px;
+    height: 31px;
+    margin-left: 10px;
+    margin-top: 45px;
+	}
+
+	.wallpaper-phone .barra-button span
+	{
+		font-size: 12px;
+		margin-top: 8px;
+	}
+
+	.wallpaper-phone .barra-button .linha-wallpaper
+	{
+		width: 71px;
+		margin-left: 234px;
+		position: absolute;
+		margin-top: 13px;
+	}
+}
+
+.other-barra
+{
+	border: 2px solid black;
+	margin-top: 200px;
+}
